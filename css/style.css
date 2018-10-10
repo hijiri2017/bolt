@@ -1,3 +1,7 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 img {
   vertical-align: top;
 }
@@ -36,8 +40,13 @@ img {
   color: #74cfae;
 }
 
+.menu__icon {
+  display: none;
+}
+
 .header__right {
   float: right;
+  display: block;
 }
 
 .contact {
@@ -51,7 +60,7 @@ img {
 }
 
 .main {
-  padding-top: 70px;
+  padding-top: 74px;
 }
 
 .top__wrapper {
@@ -85,7 +94,6 @@ img {
 }
 
 .message__right {
-  font-family: 'Raleway', sans-serif;
   text-align: center;
   color: #fff;
   line-height: 25px;
@@ -108,7 +116,6 @@ img {
 }
 
 .work__title {
-  font-family: 'Raleway', sans-serif;
   font-size: 24px;
   color: #808080;
   margin-bottom: 40px;
@@ -187,7 +194,7 @@ img {
 }
 
 .skills__title {
-  font-size: 20px;
+  font-size: 25px;
   color: #fff;
   text-align: center;
   margin-bottom: 50px;
@@ -250,4 +257,243 @@ img {
 .footer__txt {
   color: #fff;
   text-align: right;
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 1199px){
+  .header {
+    width: 100%;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 97%;
+    float: none;
+  }
+
+  .header__right {
+    display: block;
+  }
+
+  .message__wrapper {
+    padding: 50px 0 25px 0;
+    text-align: center;
+  }
+
+  .message__left {
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .message__right {
+    width: 75%;
+    display: inline-block;
+    float: none;
+    word-break: break-all;
+  }
+
+  .main__message {
+    padding-top: 20px;
+  }
+
+  .sub__message {
+    margin-top: 35px;
+  }
+
+  .work__wrapper {
+    text-align: center;
+  }
+
+  .work__pic {
+    margin-bottom: 0;
+  }
+
+  .work__pic__link {
+    float: none;
+    display: block;
+  }
+
+  .work__pic__link:not(:nth-child(3n+1)) {
+    margin-left: 0;
+}
+
+  .work__pic__link:nth-child(-n+3) {
+    margin-bottom: 0;
+  }
+
+  .work__pic__link:nth-child(3n) {
+    margin-bottom: 80px;
+  }
+
+  .work__contact {
+    text-align: center;
+  }
+
+  .work__txt {
+    display: inline-block;
+    float: none;
+    margin-left: 0;
+  }
+
+  .work__main__txt {
+    width: 100%;
+  }
+
+  .work__btn {
+    float: none;
+    margin-top: 40px;
+    margin-right: 0;
+  }
+
+  .work__mail {
+    display: inline-block;
+  }
+
+  .skill {
+    float: none;
+    margin-bottom: 88px;
+  }
+
+  .skill:last-child {
+    margin-bottom: 0;
+  }
+
+  .skill:not(:last-child) {
+    margin-right: 0;
+  }
+
+}
+
+@media screen and (max-width: 766px){
+  .header {
+    width: 100%;
+  }
+
+
+  .menu__icon {
+    color: #f2f2f2;
+    float: right;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+  }
+
+  .header__right {
+    display: none;
+    position: absolute;
+    top: 74px;
+    left: 0;
+    width: 100%;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 97%;
+    float: none;
+  }
+
+  .top__wrapper {
+    padding: 160px 0 130px 0;
+  }
+
+  .main__title {
+    font-size: 80px;
+  }
+
+  .message__wrapper {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .message__left {
+    float: none;
+    display: inline;
+  }
+
+  .message__right {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
+  .work__wrapper {
+    text-align: center;
+  }
+
+  .work__pic {
+    margin-bottom: 0;
+  }
+
+  .work__pic__link {
+    float: none;
+    display: block;
+  }
+
+  .work__pic__link:not(:nth-child(3n+1)) {
+    margin-left: 0;
+}
+
+  .work__pic__link:nth-child(-n+3) {
+    margin-bottom: 0;
+  }
+
+  .work__pic__link:nth-child(3n) {
+    margin-bottom: 80px;
+  }
+
+  .work__contact {
+    text-align: center;
+  }
+
+  .work__txt {
+    display: inline-block;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .work__main__txt {
+    width: 100%;
+  }
+
+  .work__btn {
+    width: 115px;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .skill {
+    float: none;
+    margin-bottom: 88px;
+  }
+
+  .skill:last-child {
+    margin-bottom: 0;
+  }
+
+  .skill:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .icon__wrapper {
+    padding: 50px 15px;
+  }
+
+  .icon {
+    width: 100%;
+  }
+
+  .icon:hover {
+    font-size: 40px;
+    color: #74cfae;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+  }
+
 }
