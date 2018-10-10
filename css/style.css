@@ -76,6 +76,10 @@ img {
   color: #74cfae;
 }
 
+.br-sp {
+  display:none;
+}
+
 .sub__title {
   font-size: 30px;
   color: #c0c0c0;
@@ -289,13 +293,10 @@ img {
 
   .message__right {
     width: 75%;
+    padding-top: 20px;
     display: inline-block;
     float: none;
     word-break: break-all;
-  }
-
-  .main__message {
-    padding-top: 20px;
   }
 
   .sub__message {
@@ -307,7 +308,7 @@ img {
   }
 
   .work__pic {
-    margin-bottom: 0;
+    margin-bottom: 80px;
   }
 
   .work__pic__link {
@@ -323,7 +324,7 @@ img {
     margin-bottom: 0;
   }
 
-  .work__pic__link:nth-child(3n) {
+  .work__pic__link:nth-child(3) {
     margin-bottom: 80px;
   }
 
@@ -339,12 +340,13 @@ img {
 
   .work__main__txt {
     width: 100%;
+    margin-bottom: 40px;
   }
 
   .work__btn {
+    width: 115px;
+    margin: 0 auto;
     float: none;
-    margin-top: 40px;
-    margin-right: 0;
   }
 
   .work__mail {
@@ -403,6 +405,10 @@ img {
   .main__title {
     font-size: 80px;
   }
+
+  .br-sp {
+  display:block;
+}
 
   .message__wrapper {
     text-align: center;
@@ -482,6 +488,10 @@ img {
 
   .icon__wrapper {
     padding: 50px 15px;
+  }
+
+  .icons {
+    display: block;
   }
 
   .icon {
